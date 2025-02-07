@@ -5,6 +5,7 @@ using namespace std;
 #define ld long long double
 const int SCREEN_WIDTH=800;
 const int SCREEN_HEIGHT=600;
+// creat windows 
 SDL_Window* initSDL(){
     if (SDL_Init(SDL_INIT_VIDEO) < 0) {
         printf("SDL could not initialize! SDL_Error: %s\n", SDL_GetError());
