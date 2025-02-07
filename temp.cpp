@@ -27,6 +27,6 @@ SDL_Window* initSDL(){
 int main(){
     SDL_Window* window=initSDL();
     SDL_Renderer* renderer=createRenderer();
-
-
+    cout<<"world"<<endl;
+    return 0;
 }
